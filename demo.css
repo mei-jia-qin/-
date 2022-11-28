@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main_area {
+    width: 600px;
+    height: 1057px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+.background {
+    position: relative;
+    background-image: url(https://meijiaqin.oss-cn-beijing.aliyuncs.com/Background.png);
+}
+.left_top {
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+    top: 31px;
+}
+.left {
+    position: absolute;
+    left: 50%;
+    margin-left: -265px;
+    top: 42px;
+}
+.right_top {
+    position: absolute;
+    left: 50px;
+    margin-left: 482px;
+    top: 31px;
+}
+.right {
+    position: absolute;
+    left: 50%;
+    margin-left: 254px;
+    top: 43px;
+
+}
+.sign_up1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -48px;
+    top: 38px;
+}
+.circle {
+    position: absolute;
+    left: 50%;
+    margin-left: -74.5px;
+    top: 168px;
+}
+.Ten {
+    position: absolute;
+    left: 50%;
+    margin-left: -26px;
+    top: 196px;
+}
+.photo {
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: 263px;
+}
+.content {
+    position: relative;
+    width: 482px;
+    height: 282px;
+    background-color: rgba( 0, 0, 0, 0);
+    left: 78px;
+    top: 358px;
+}
+/* 设置字体样式 */
+.content p {
+    font-size: 26px;
+    line-height: 41.16px;
+    color: white;
+}
+/* 设置输入框格式 */
+.content input {
+    height: 30px;
+    width: 442px;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #7d8fb3;
+    background-color: transparent;
+}
+.content_down {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.show {
+    position: absolute;
+    left: 378px;
+}
+.bottom p {
+    font-size: 32.96px;
+    line-height: 75px;
+    color: #746d9f;
+    text-align: center;
+    border-radius: 40px;
+}
+.bottom_up {
+    position: absolute;
+    width: 442px;
+    height: 75px;
+    background-color: white;
+    border-radius: 40px;
+    left: 50%;
+    margin-left: -221px;
+    top: 710px;
+}
+.text_one {
+    position: absolute;
+    color: #fcfcfd;
+    font-size: 22.96px;
+    left: 50%;
+    margin-left: -161px;
+    top: 819px;
+}
+.text_two {
+    position: absolute;
+    color: #44fcb2;
+    font-size: 22.96px;
+    left: 50%;
+    margin-left: 63px;
+    top: 819px;
+}
+
